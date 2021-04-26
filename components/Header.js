@@ -1,4 +1,5 @@
 import Link from 'next/Link'
+import Search from './Search'
 import styles from '../styles/Header.module.css'
 export default function Header() {
     return (
@@ -9,6 +10,7 @@ export default function Header() {
                 </Link>
 
             </div>
+            <Search/>
             <nav>
                 <ul>
                     <li>
